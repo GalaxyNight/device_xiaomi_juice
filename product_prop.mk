@@ -18,7 +18,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # Graphics
 PRODUCT_PRODUCT_PROPERTIES += \
-    debug.hwui.renderer=opengl \
+    debug.hwui.renderer=skiagl \
     debug.sf.disable_backpressure=1 \
     ro.surface_flinger.use_color_management=true \
     ro.surface_flinger.use_context_priority=true \
